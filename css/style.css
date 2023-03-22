@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold; }
+
+p {
+  font-family: 'Kaushan Script', cursive;
+  text-align: justify; }
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  padding: 15px; }
+
+body {
+  background-image: url(../assets/img/Fondo.jpg); }
+
+header .wts {
+  width: 50px;
+  position: fixed;
+  bottom: 300px;
+  right: 30px; }
+
+header .nav {
+  background-color: aqua;
+  font-family: 'Kaushan Script', cursive; }
+  header .nav .logo {
+    cursor: pointer;
+    transition: all 0.3s; }
+    header .nav .logo:hover {
+      transform: scale(1.2); }
+
+header .nav__a {
+  color: black !important;
+  margin: 10px;
+  transition: all 0.3s; }
+  header .nav__a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    border-radius: 50px; }
+
+.container {
+  padding: 30px; }
+  .container article {
+    padding: 10px; }
+    .container article .link {
+      color: #643927;
+      text-decoration: none; }
+
+main .bordes {
+  border-radius: 50px;
+  opacity: .80; }
+  main .bordes:hover {
+    border-radius: 50px;
+    opacity: 1;
+    transform: scale(1.1); }
+
+main .color {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px; }
+  main .color:hover {
+    background-color: #b2c0cb;
+    transform: scale(1); }
+
+main .formulario {
+  background-color: aqua;
+  padding: 2rem;
+  border-radius: 30px; }
+
+@media (min-width: 768px) {
+  main .formulario {
+    max-width: 800px;
+    margin: 0 auto; } }
+
+main .contenedor-campos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Kaushan Script', cursive; }
+
+main .campo {
+  margin-bottom: 1rem;
+  width: 100%; }
+
+@media (min-width: 480px) {
+  main .campo {
+    display: flex;
+    align-items: center; } }
+
+@media (min-width: 768px) {
+  main .campo {
+    flex: 0 0 calc(50% - .5rem); } }
+
+main .campo label {
+  color: var(--blanco);
+  font-weight: 700;
+  margin-bottom: .5rem;
+  display: block; }
+
+@media (min-width: 480px) {
+  main .campo label {
+    flex: 0 0 90px; } }
+
+main .campo input[type="text"],
+main .campo input[type="tel"],
+main .campo input[type="mail"],
+main .campo textarea {
+  width: 100%;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem; }
+
+@media (min-width: 768px) {
+  main :is(.campo) :is(input[type="text"], input[type="text"], input[type="tel"], input[type="mail"], textarea) {
+    flex: 1; } }
+
+main .w-100 {
+  flex: 0 0 100%; }
+
+main .campo textarea {
+  height: 4rem; }
+
+main .boton {
+  background-color: #050505;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 0; }
+
+main .enviar {
+  display: flex;
+  justify-content: flex-end; }
+
+.footer {
+  background-color: aqua;
+  text-align: center; }
+
+.footer__1 {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 45px; }
+  .footer__1 .footer.box {
+    justify-content: center; }
+
+.footer__box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer__img-redes {
+  margin: 8px;
+  justify-content: center; }
+
+.footer__2 {
+  padding: 15px;
+  text-align: center;
+  margin: auto; }
+
+@media screen and (max-width: 480px) {
+  .footer__1 {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 25px; } }

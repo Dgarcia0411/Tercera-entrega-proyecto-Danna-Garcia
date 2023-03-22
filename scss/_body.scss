@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Kaushan Script', cursive;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+body {
+    background-image: url(../assets/img/Fondo.jpg);
+}

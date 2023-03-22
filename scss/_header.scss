@@ -1,0 +1,31 @@
+header{
+    .wts{
+        width: 50px;
+        position: fixed;
+        bottom: 300px;
+        right: 30px;
+    }
+    .nav {
+        background-color:$bg;
+        font-family: 'Kaushan Script', cursive;
+        .logo {
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.2) ;
+        }
+        }
+    }
+    .nav__a {
+        color: $oscuro!important;
+        margin: 10px;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $claro;
+            color: $oscuro;
+            transform: scale(1.2);
+            border-radius: 50px;
+            
+        }
+    }
+}
